@@ -1,0 +1,36 @@
+Phase 0: Setting Up the PHP Environment
+1. PHP Installation: Understand how to install PHP on different operating systems.
+2. Local Server Setup: Set up a local server environment using tools like XAMPP or MAMP.
+3. IDE/Text Editor: Choose and set up an IDE or text editor suitable for PHP development, such as Visual Studio Code or PHPStorm.
+
+Done.✅✅✅
+
+
+Phase 1: PHP Fundamentals
+
+Task 1: PHP Syntax and Variables
+
+
+1. Syntax: Understand the language's syntax, which includes its rules for writing code, such as using proper punctuation, indentation, and keywords.
+2. Variables and Data Types: Learn how to declare variables, assign values to them, and understand different data types like integers, floats, strings, and boolean.
+3. . Operators: Master arithmetic, comparison, logical, and assignment operators, which allow you to perform calculations, make comparisons, and manipulate data.
+4. Based on what you have learnt so far, create a simple PHP script that calculates yearly profits.
+
+
+
+a. Create a PHP script that calculates the yearly profits based on the following inputs:
+• Monthly Gross Salary
+• Monthly Net Salary
+• Monthly Household Expenditure
+
+
+b. Assumptions:
+• There are 12 months in a year.
+• Gross salary remains constant throughout the year.
+• Net salary and household expenditure are considered per month.
+Task 2: Control Structure and Loops
+1. Control Structures: Study control flow mechanisms like conditionals (if statements, switch statements) and loops (for loops, while loops), which help you manage the flow of your program.
+2. Build a program that iterates through an array and displays its content.
+Task 3: Functions
+1. Functions: Understand how to define and call functions. Functions allow you to encapsulate code for reuse and modularity.
+2. Build a program that employs the use of functions and control structure and display the output.
