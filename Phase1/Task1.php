@@ -1,4 +1,3 @@
-<html>
 
 Based on what you have learnt so far, create a simple PHP script that calculates yearly profits.
 a. Create a PHP script that calculates the yearly profits based on the following inputs:
@@ -43,6 +42,4 @@ echo "Yearly Profit: $yearlyProfit";
 
 
 
-
-</html>
 
