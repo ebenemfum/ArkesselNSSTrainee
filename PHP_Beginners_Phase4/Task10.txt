@@ -1,0 +1,4 @@
+Create a secure login system that validates and sanitizes user input, prevents
+SQL injection, and securely hashes passwords.
+
+This was done in Phase3.
