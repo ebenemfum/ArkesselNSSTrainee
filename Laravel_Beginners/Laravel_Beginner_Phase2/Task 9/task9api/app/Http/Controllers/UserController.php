@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+
 
 class UserController extends Controller
 {
@@ -17,13 +19,16 @@ class UserController extends Controller
             'password' => 'required|string|min:6',
         ]);
 
+        $apiKey = Str::random(32); // Generate a random API key
+
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'api_key' => $apiKey,
         ]);
 
-        return response()->json(['user' => $user, 'message' => 'User created successfully'], 201);
+        return response()->json(['user' => $user, 'api_key' => $apiKey,'message' => 'User created successfully'], 201);
     }
 
     // Update an existing user
@@ -61,5 +66,5 @@ class UserController extends Controller
         return response()->json(['users' => $users], 200);
     }
 
-    
+
 }
