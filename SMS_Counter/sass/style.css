@@ -46,6 +46,6 @@ body .main textarea {
 body .main textarea:focus {
   outline: none;
 }
-body .main .word-count, body .main .character-count {
+body .main .word-count, body .main .character-count, body .main .npcharacter-count, body .main .parts-count {
   font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
